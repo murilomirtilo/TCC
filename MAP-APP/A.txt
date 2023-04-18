@@ -1,0 +1,16 @@
+
+
+function criarMarcadores() { 
+  var custom_icon2;
+  var custom_icon1;
+  custom_icon1 = L.icon({
+    iconUrl: "img/icon_museum.png",
+    iconSize: [29, 29],
+    iconAnchor: [10, 29],
+    popupAnchor: [0, -29],
+  })
+  L.marker([-20.430651, -40.324176], {
+    icon: custom_icon,
+    draggable: false
+  }).bindPopup('<strong>' + 'Ponto de interesse!' + '</strong>' + '<br/>' + 'Praça do Castelo da Barra').addTo(map);
+
