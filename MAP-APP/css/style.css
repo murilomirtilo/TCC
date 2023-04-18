@@ -5,7 +5,7 @@
 }
 
 .formBlock {
-    max-width: 300px;
+    max-width: 323px;
     background-color: #FFF;
     border: 1px solid #ddd;
     position: absolute;
@@ -15,11 +15,26 @@
     z-index: 999;
     box-shadow: 0 1px 5px rgba(0,0,0,0.65);
     border-radius: 5px;
+    width: 110%;
+}
+
+.blockPush {
+    margin-top: 10%;
+    max-width: 300px;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    position:initial;
+    top: 10px;
+    
+    padding: 10px;
+    z-index: 999;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+    border-radius: 5px;
     width: 100%;
 }
 
 .leaflet-top .leaflet-control {
-    margin-top: 180px;
+    margin-top: 850px;
 }
 
 .input {
@@ -34,6 +49,6 @@
     padding: 0;
     margin: 0;
 }
-input:nth-child(1) {
+input:nth-child() {
     margin-bottom: 10px;
 }
